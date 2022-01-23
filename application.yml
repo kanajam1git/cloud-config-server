@@ -1,0 +1,16 @@
+eureka:
+   client:
+      register-With-Eureka: true
+      fetch-Registry: true
+      service-url: 
+        defaultZone: http://localhost:8761/eureka/
+   instance:
+    hostname: localhost 
+
+microservice:
+  pament-service:
+    Endpoint:
+      url:http://PAMENT-SERVICE/Payment/doPayment
+  order-service:
+    Endpoint:
+      url:http://ORDER-SERVICE/order/bookOrder    
