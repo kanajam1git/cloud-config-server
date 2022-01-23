@@ -10,7 +10,7 @@ eureka:
 microservice:
   pament-service:
     Endpoint:
-      url:http://PAMENT-SERVICE/Payment/doPayment
+      uri:http://PAMENT-SERVICE/Payment/doPayment
   order-service:
     Endpoint:
-      url:http://ORDER-SERVICE/order/bookOrder    
+      uri:http://ORDER-SERVICE/order/bookOrder    
